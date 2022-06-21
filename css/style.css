@@ -7,6 +7,16 @@
     box-sizing: border-box;
 }
 
+/* *TYPE WRAPPER* */
+.type-wrapper {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+}
+select {
+    font-size: 1.2rem;
+}
+
 /* *ICONS WRAPPER* */
 #icons-wrapper {
     margin: 0 auto;
@@ -22,11 +32,11 @@ i {
     font-size: 4rem;
 }
 .icon-orange {
-    color: orange;
+    color: #ffa500;
 }
 .icon-green {
-    color: greenyellow;
+    color: #adff2f;
 }
 .icon-blue {
-    color: skyblue;
+    color: #43ceff;
 }
