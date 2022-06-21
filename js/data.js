@@ -135,7 +135,7 @@ iconsArray.forEach((element) => {
 	const thisIcon = `${element.family} ${element.prefix}${element.name}`;
 
 	iconsWrapper.innerHTML += `
-	<span>
+	<span class="icon-${element.color}">
 		<i class="${thisIcon}">
 	</i></span>
 	`;
