@@ -1,0 +1,23 @@
+/* *RESET* */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* *ICONS WRAPPER* */
+#icons-wrapper {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+/* *ICONS* */
+i {
+    font-size: 4rem;
+}
